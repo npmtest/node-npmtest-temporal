@@ -1,6 +1,6 @@
 # npmtest-temporal
 
-#### test coverage for  [temporal (v0.5.0)](https://github.com/rwaldron/temporal)  [![npm package](https://img.shields.io/npm/v/npmtest-temporal.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-temporal) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-temporal.svg)](https://travis-ci.org/npmtest/node-npmtest-temporal)
+#### basic test coverage for  [temporal (v0.5.0)](https://github.com/rwaldron/temporal)  [![npm package](https://img.shields.io/npm/v/npmtest-temporal.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-temporal) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-temporal.svg)](https://travis-ci.org/npmtest/node-npmtest-temporal)
 
 #### Non-blocking, temporal task sequencing and scheduling.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-temporal/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-temporal/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-temporal/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-temporal/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-temporal/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-temporal/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-temporal/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-temporal/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-temporal/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-temporal/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-temporal/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-temporal/build/coverage.html/index.html)
 
@@ -106,7 +106,8 @@
     "scripts": {
         "test": "grunt"
     },
-    "version": "0.5.0"
+    "version": "0.5.0",
+    "bin": {}
 }
 ```
 
